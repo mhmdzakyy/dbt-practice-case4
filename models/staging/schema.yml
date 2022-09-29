@@ -1,0 +1,41 @@
+version: 2
+
+sources:
+  - name: green_taxi_trip
+    schema: green_taxi_trip
+    tables:
+      - name: green_tripdata_2021-01
+        identifier: green_tripdata_2021-01
+
+      - name: green_tripdata_2021-02
+        identifier: green_tripdata_2021-02
+
+      - name: green_tripdata_2021-03
+        identifier: green_tripdata_2021-03
+
+      - name: green_tripdata_2021-04
+        identifier: green_tripdata_2021-04
+
+      - name: green_tripdata_2021-05
+        identifier: green_tripdata_2021-05
+
+      - name: green_tripdata_2021-06
+        identifier: green_tripdata_2021-06
+
+      - name: green_tripdata_2021-07
+        identifier: green_tripdata_2021-07
+
+      - name: green_tripdata_2021-08
+        identifier: green_tripdata_2021-08
+
+      - name: green_tripdata_2021-09
+        identifier: green_tripdata_2021-09
+
+      - name: green_tripdata_2021-10
+        identifier: green_tripdata_2021-10
+
+      - name: green_tripdata_2021-11
+        identifier: green_tripdata_2021-11
+      
+      - name: green_tripdata_2021-12
+        identifier: green_tripdata_2021-12
