@@ -1,0 +1,29 @@
+version: 2
+
+models: 
+  - name: greentaxi
+    columns:
+      - name: VendorID
+        description: 1= Creative Mobile Technologies, LLC; 2= VeriFone Inc.
+        tests:
+          - not_null
+
+      - name: trip_distance
+        description: The distance of the trip
+        tests:
+          - not_null
+
+      - name: store_and_fwd_flag
+        description: IF Null, RatecodeID, PassangerCount, PaymentType, trip_type, and congestion_surcharge must be null
+        tests:
+          - accepted_values:
+              values: ["Y", "N"]
+     
+      - name: RateCodeID
+        description: The final rate code in effect at the end of the trip. 1= Standard rate, 2=JFK, 3=Newark, 4=Nassau or Westchester, 5=Negotiated fare, 6=Group ride
+
+      - name: Payment_type 
+        description: A numeric code signifying how the passenger paid for the trip. 1= Credit card, 2= Cash, 3= No charge, 4= Dispute, 5= Unknown, 6= Voided trip
+
+          
+     
