@@ -1,5 +1,6 @@
 version: 2
 
+
 sources:
   - name: green_taxi_trip
     schema: green_taxi_trip
